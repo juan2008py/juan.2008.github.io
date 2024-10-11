@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>documento</title>
+  <style>
+     body{
+  background: black;
+  color: white;
+}
+
+main{
+  background: transparent;
+  width: 340px;
+  height: auto;
+  border: 2px solid white;
+}
+
+.titulo{
+  background: transparent;
+  width: auto;
+  height: auto;
+  border: 2px solid white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+  background: transparent;
+  color: white;
+  width: auto;
+  height: auto;
+  border: none;
+}
+
+h2{
+  background: transparent;
+  width: auto;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h3 {
+ background: transparent;
+  width: auto;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h4 {
+  background: transparent;
+  width: auto;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+a {
+  background: transparent;
+  color: white;
+}
+
+.descri{
+  background: gray;
+  width: 200px;
+  height: 50px;
+  position: fixed;
+  left: 70px;
+  color: white;
+  top: 650px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#letra{
+  background: transparent;
+  height: auto;
+  width: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 65px;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="descri"> <div id="letra"><h5> <a href="https://github.com/juan2008py">perfil de github</a></h5></div></div>
+  <main>
+    <div class="titulo"><h1>Mi Web</h1> </div> <br />
+    <div id="info">este es un sitio web tipo prototipo blanco y negro <h2>presioné la pantalla para seguir el contenido</h2></div>
+    <div id="content">
+      <div class="title"><h2>información</h2></div>
+      <div> <button><h2>Samsung A03 core</h2></button></div>
+      Tu Samsung A03 Core es un teléfono de gama de entrada, diseñado para ofrecer un rendimiento básico y cumplir con las necesidades diarias. Aquí tienes algunas características clave de tu dispositivo:
+<br>
+<h3>pantalla</h3> Tiene una pantalla de 6.5 pulgadas con una resolución HD+<br>
+<h3>Procesador </h3> Usa un procesador Unisoc SC9863A, que es adecuado para tareas simples.<br />
+<h3>Memoria RAM </h3> 2 GB de RAM, que es suficiente para ejecutar aplicaciones básicas, pero puede ser limitado para tareas más intensivas.<br>
+<h3>Almacenamiento</h3>Generalmente viene con 32 GB de almacenamiento interno, aunque puede variar dependiendo del modelo.<br>
+<h3>Sistema Operativo</h3> Ejecuta Android Go Edition, una versión ligera de Android optimizada para dispositivos con especificaciones más modestas.
+    </div>
+    
+    <div class="title">
+      <h2> uso y cuidado</h2>
+      <h6></h6>
+    </div>
+    <div> 
+   <h4>Cosas que No Debes Hacer</h4>
+
+- No Instales Aplicaciones de Fuentes No Confiables: Esto puede introducir malware en tu dispositivo y comprometer tu seguridad.
+  <br>
+- No Sobrecargues la Batería: Como mencioné antes, evita dejar el teléfono cargando por largos periodos sin necesidad.<br>
+- No Utilices el Teléfono Mientras Está Cargando:** Esto puede generar calor y, a largo plazo, afectar la batería.<br>
+- Evita Dejar el Teléfono Expuesto al Sol: La exposición prolongada al sol puede sobrecalentar el dispositivo y dañar la pantalla y la batería.<br>
+
+<div>
+Siguiendo estas recomendaciones, puedes mantener tu Samsung A03 Core en buen estado y funcionando de manera eficiente por más tiempo.
+</div>
+
+</div>
+
+  <footer>
+    <h3> juan enmanuel web </h3>
+  </footer>
+  </main>
+</body>
+<script>
+  let info = {marca:"Samsung A03 core"};
+let {marca} = info;
+let caracteristicas = {mensaje:"cargando....."};
+let {mensaje} = caracteristicas;
+let información = "Evita Sobrecargar el Teléfono: 1 multitarea limitada no intentes ejecutar muchas aplicaciones simultáneamente, ya que esto puede ralentizar el sistema y causar bloqueos. 2 cierre de aplicaciones en segundo plano: asegúrate de cerrar las aplicaciones que no estás usando para liberar memoria. 2. gestiona el almacenamiento:eliminar archivos innecesarios: borra regularmente archivos y aplicaciones que no uses para evitar que el almacenamiento se llene.usa una tarjeta SD: considera expandir el almacenamiento con una tarjeta SD para almacenar fotos, videos y aplicaciones.mantenimiento del Sistema Operativo:Actualizaciones Regulares Mantén tu teléfono actualizado para recibir las últimas mejoras de seguridad y rendimiento.Evita Modificar el Sistema: No intentes rootear el teléfono o instalar ROMs no oficiales, ya que esto puede comprometer la estabilidad del sistema y anular la garantía.";
+
+function suma(a,b) {
+  return a + b;
+}
+
+alert("iniciando web.....")
+
+document.querySelectorAll('button'),addEventListener ('click',function () {
+   document.querySelector('h6').textContent = información ;
+   alert(mensaje);
+  
+});
+</script>
+
+</html>
