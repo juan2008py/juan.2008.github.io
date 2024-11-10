@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mis herramientas</title>
+  <style>
+
+    body{
+  background: black;
+  color: #3B3B3B;
+  text-align: center;
+}
+
+#boton{
+  background: transparent;
+  width: 100px;
+  height: 50px;
+  height: auto;
+  border: 1px dashed white;
+  color: #D1D1D1;
+  border-radius: 10px;
+  position: relative;
+  top: 270px;
+  right: 85px;
+}
+
+#texto{
+  background: transparent;
+  border: 2px solid #D1D1D18F;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  left: 50px;
+}
+
+h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #707070;
+ position: relative;
+ top: 10px;
+  
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #838383;
+}
+
+#busca{
+  position: relative;
+}
+
+h1{
+  position: relative;
+  top: 10px;
+  animation-name: hola;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hola {
+  0% {color: #3B3B3B;left: 0px;top: 0px;}
+  25% {color: #3B3B3B;left: 0px;top: 0px;}
+  50% {color: #3B3B3B;left: 50px;top: 0px;}
+  75% {color: white;left: 0px;top: 20px;}
+  100% {color: #3B3B3B;left: 0px;top: 0px;}
+}
+
+#cuadro {
+  background: transparent;
+  width: auto;
+  height: 230px;
+  border: 1px dashed white;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+
+</style>
+</head>
+
+<body>
+  <h2> familia de juan</h2>
+  <h1></h1>
+  <div id="busca">
+<input id="texto"  type="text">
+<button id="boton">Envíar</button>
+</div>
+
+<div id="cuadro">
+<h3> </h3>
+</div>
+</body>
+<script>
+
+  const user = "Juan Emmanuel mas conocido por manu es el creador de este buscador y el tiene 16 años actualmente entra en 2° año de la media y es de género masculino con aproximadamente de altura 1m 50cm y obviamente le gusta la tecnología y la programación y le gusta comer comidas con salsa y comidas rápidas";
+
+const estrella = "Estrella Luján es la hermana del creador y tiene 14 años entra en 8° curso es de genero femenino y le gusta las motos y come fideos y arroz con queso";
+
+const alberto = "Alberto coronel es el papa del usuario la edad no se pero lo que se es que es herrero y es alto  también se que le gusta la comida casera ";
+
+const albert = "Es el hermano pequeño del usuario  tiene 2 años y le gusta las vacas y autos también es fanático de las comidas especial banana y frutas también los caldos , es muy travieso y jugueton y se ríe mucho ";
+
+const graciela = "Es la mama del usuario , le gusta irse en su moto de paseó, también le gusta maquillarse y comer comidas caseras que hace , es bajita y con cabellos cortos eso nomás se digamos";
+
+const texto = document.getElementById('texto')
+const boton = document.getElementById('boton')
+const nombre = document.getElementById('nombre')
+const imagen = document.getElementById('imagen') 
+
+boton.addEventListener ('click', () =>  {
+  if (texto.value == "Juan") {
+    document.querySelector("h1").textContent =
+    "hola " + texto.value;
+    document.querySelector("h3").textContent =
+    "lo que se de " + texto.value + ": " + user;
+  } if (texto.value == "Estrella") {
+    document.querySelector("h1").textContent =
+    "hola estrella";
+    document.querySelector("h3").textContent =
+    "lo que se de " + texto.value + ": " + estrella;
+  } if (texto.value == "Alberto") {
+    document.querySelector("h1").textContent =
+    "hola alberto";
+    document.querySelector("h3").textContent =
+    "lo que se de " + texto.value + ": " + alberto;
+  } if (texto.value == "Albert") {
+    document.querySelector("h1").textContent =
+    "hola albert";
+    document.querySelector("h3").textContent =
+    "lo que se de " + texto.value + ": " + albert;
+  } if (texto.value == "Graciela") {
+    document.querySelector("h1").textContent =
+    "hola graciela";
+    document.querySelector("h3").textContent =
+    "lo que se de " + texto.value + ": " + graciela;
+  }
+  
+})
+
+boton.addEventListener('click', () => {
+  let nombre = texto.value;
+  let mensaje = "";
+  let saludo = "Hola " + nombre;
+
+  if (nombre === "Juan") {
+    mensaje = user;
+  } else if (nombre === "Estrella") {
+    mensaje = estrella;
+  } else if (nombre === "Alberto") {
+    mensaje = alberto;
+  } else if (nombre === "Albert") {
+    mensaje = albert;
+  } else if (nombre === "Graciela") {
+    mensaje = graciela;
+  } else {
+    saludo = "Lo siento";
+    mensaje = "No tengo información sobre " + nombre +  " o tal vez dejaste.espacio antes de enviar por favor verificar el nombre o texto";
+  }
+
+  document.querySelector("h1").textContent = saludo;
+  document.querySelector("h3").textContent = mensaje;
+});
+
+</script>
+</html>
+    
