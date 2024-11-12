@@ -4,13 +4,13 @@
 
 ## Proyectos Destacados
 
-### 1. Conversor de Moneda 💸
-- **Descripción:** Un conversor que convierte guaraníes a pesos y viceversa.
+### 1. app de notas 💸
+- **Descripción:** Notas con audio incluido que al escribir y tocar enviar aparece en la pantalla.
 - **Tecnologías:** JavaScript, HTML, CSS
 - **Motivación:** Este proyecto me ayuda a practicar el uso de funciones básicas de JavaScript y manipulación de datos.
 
-### 2. Proyecto Sobre Bullying 🎭
-- **Descripción:** Un sitio web sobre mi experiencia con el bullying, creado con HTML, CSS y JavaScript.
+### 2. Proyecto Sobre vida personal 🎭
+- **Descripción:** Un sitio web sobre mi experiencia en la vida, creado con HTML, CSS y JavaScript.
 - **Objetivo:** Compartir mi historia y alentar a otros a hablar sobre este tema.
 - **Tecnologías:** HTML, CSS, JavaScript
 
