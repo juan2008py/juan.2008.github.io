@@ -1,0 +1,326 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+body{
+  background: #FFFFFF;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-size: 13px;
+  align-items: center;
+  align-content: center;
+  background-position: center;
+}
+
+#titulo{
+	background: dimgray;
+	color: whitesmoke;
+	height: 60px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	text-align: center;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#press{
+  background: gray;
+  width: 125px;
+  height: 30px;
+  position: relative;
+  border: 1px solid white;
+  border-bottom-left-radius: 20px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #444444;
+  font-size: 25px;
+  
+}
+
+a{
+  background: transparent;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  left: 40px;
+  top: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+#numero{
+  background: transparent;
+  width: 100px;
+  color: white;
+  border: 1px solid white;
+}
+
+::placeholder{
+  color: white;
+}
+
+#nombreDate{
+  background: transparent;
+  width: auto;
+  color: white;
+  border: 1px solid white;
+}
+
+#cajaDate{
+  background: #212121;
+  width: auto;
+  height: 500px;
+  padding: 15px;
+  position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+header{
+  position: relative;
+  text-align: center;
+  width: auto;
+
+  
+}
+
+#cajaInput{
+  background: transparent;
+  width: 200px;
+  position: relative;
+  left: 25px;
+  bottom: 30px;
+}
+
+p{
+  color: #BCBCBC;
+  position: relative;
+  top: 50px;
+  left: 5px;
+  
+}
+
+input{
+  position: relative;
+  top: 30px;
+}
+
+#resultado{
+  width: 250px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.result{
+  position: relative;
+  left: 150px;
+  bottom: 500px;
+}
+
+.parrafo{
+  position: relative;
+  left: 97px;
+  bottom: 25px;
+}
+
+main {
+  position: static;
+  
+}
+
+#redondo{
+  background: gray;
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+  border: 3px solid black;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+#mensaje{
+  position: relative;
+  color: dimgray;
+  width: 200px;
+  height: auto;
+  left: 85px;
+  top: 30px;
+  font-size: 30px;
+  text-align: left;
+  overflow: hidden;
+  word-wrap: break-word;
+  align-items: center;
+  justify-content: right;
+  margin: auto;
+  
+}
+
+#age{
+  position: relative;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+
+#precio{
+  background: transparent;
+  width: 100px;
+  height: auto;
+  border: 1px solid black;
+  position: relative;
+  top: 50px;
+  left: 160px;
+}
+
+#resultadoHTML{
+  background: #F7F7F7;
+  position: relative;
+  top: 30px;
+  width: 250px;
+  height: 243px;
+  left: 5px;
+  border-radius: 20px;
+  bottom: 30px;
+  overflow: auto;
+  word-wrap: break-word;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#hresul{
+  color: dimgray;
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+
+#edadM{
+  position: relative;
+  text-align: center;
+  top: 50px;
+  right: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  color: #484848;
+  
+}
+
+.texto{
+	width: auto;
+  top: 50px;
+  margin: 5px;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+li{
+  list-style: none;
+  font-family: sans-serif;
+  color: dimgray;
+  font-size: 20px;
+ position: absolute;
+ text-align: center;
+ padding: 5px;
+}
+
+#nacionalidad{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+
+#resultadoPago{
+  text-align: center;
+  position: relative;
+  top: 50px;
+  color: #2F3032;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#mensajeDate{
+  color: gray;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+}
+
+#pago_boton{
+  background: gray;
+  width: 125px;
+  height: 30px;
+  position: relative;
+  border: 1px solid white;
+  border-bottom-right-radius: 20px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 25px;
+  color: #444444;
+}
+
+#pagado{
+	color: gray;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	font-size: 30px;
+}
+
+
+
+
+
+#informacion{
+	background: #212121;
+	position: relative;
+	color: white;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	align-items: center;
+	justify-content: right;
+	margin: auto;
+	left: 75px;
+	top: 10px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+#informacion button{
+	position: relative;
+	width: 100px;
+	height: 40px;
+	background: transparent;
+	color: gray;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+.centro{
+	position: relative;
+	width: 250;
+	height: 30px;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	top: 180px;
+}
+
